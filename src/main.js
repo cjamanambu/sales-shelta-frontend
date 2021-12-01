@@ -9,6 +9,14 @@ import "bootstrap-vue/dist/bootstrap-vue.css";
 
 Vue.use(BootstrapVue);
 
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+library.add(faWhatsapp, faEnvelope);
+
+Vue.component("fa-icon", FontAwesomeIcon);
+
 Vue.config.productionTip = false;
 
 new Vue({
