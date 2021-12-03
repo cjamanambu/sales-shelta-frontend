@@ -1,0 +1,36 @@
+/*main css*/
+
+/*buttons*/
+.primary-btn {
+  border-radius: 10px;
+  background-color: #0033ea;
+  border-color: #0033ea;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+  letter-spacing: -0.05em;
+}
+
+.primary-btn:hover, .primary-btn:active, .primary-btn:focus, .primary-btn:focus-visible {
+  background-color: #0026af;
+  border-color: #0026af;
+  box-shadow: none;
+  outline: none;
+}
+
+.secondary-outline-btn {
+  border-radius: 10px;
+  background-color: #ffffff;
+  border-color: #ffb100;
+  color: #ffb100;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+  letter-spacing: -0.05em;
+}
+
+.secondary-outline-btn:hover, .secondary-outline-btn:active, .secondary-outline-btn:focus, .secondary-outline-btn:focus-visible {
+  background-color: #ffb100;
+  border-color: #ffb100;
+  color: #ffffff;
+  box-shadow: none;
+  outline: none;
+}

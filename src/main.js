@@ -17,6 +17,8 @@ library.add(faWhatsapp, faEnvelope);
 
 Vue.component("fa-icon", FontAwesomeIcon);
 
+import("@/assets/css/main.css");
+
 Vue.config.productionTip = false;
 
 new Vue({
