@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="d-lg-block d-none">
     <b-nav id="top-bar" class="navbar navbar-expand-lg py-0">
       <b-container fluid>
         <div
