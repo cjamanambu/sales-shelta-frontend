@@ -8,7 +8,7 @@
     <div id="home-search-wrapper-mobile">
       <b-form-input
         id="home-search-input-mobile"
-        placeholder="Location, property..."
+        placeholder="Location..."
         size="lg"
       />
       <b-button class="secondary-btn home-search-btn-mobile">
@@ -43,7 +43,7 @@ export default {};
 #home-search-wrapper-mobile {
   margin-top: 1.3em;
   position: relative;
-  //display: inline-block;
+  display: inline-block;
 }
 #home-search-input-mobile {
   //position: relative;
@@ -57,9 +57,9 @@ export default {};
 .home-search-btn-mobile {
   position: absolute;
   padding: 1em 2em 1em 2em;
-  border-radius: 3.75em;
-  top: 8%;
-  left: 69%;
+  border-radius: 3.7em;
+  top: 6%;
+  left: 65%;
 }
 #home-search-advanced-mobile {
   font-size: 1.125em;
