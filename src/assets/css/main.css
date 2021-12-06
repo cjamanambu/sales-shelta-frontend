@@ -67,6 +67,11 @@
   color: #c4c4c4;
 }
 
+.form-control:focus {
+  border-color: #6183ff;
+  box-shadow: none;
+}
+
 .navbar-light .navbar-toggler-icon {
   background-image: url("../icons/navbar-toggler.svg");
 }

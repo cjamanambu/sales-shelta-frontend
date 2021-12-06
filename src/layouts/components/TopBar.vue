@@ -8,7 +8,7 @@
           <a
             href="#"
             style="
-              font-family: 'Gotham Medium', sans-serif;
+              font-family: 'Gotham Book', sans-serif;
               color: #ffffff;
               text-decoration: none;
             "
@@ -24,9 +24,9 @@
                 href="#"
                 class="text-small nav-link"
                 style="
-                  font-family: 'Gotham Medium', sans-serif;
+                  /*font-family: 'Gotham Medium', sans-serif;*/
                   text-decoration: none;
-                  color: white;
+                  color: #ffffff;
                 "
               >
                 <fa-icon :icon="['fab', 'whatsapp']" class="mr-2" />
