@@ -13,7 +13,7 @@
               text-decoration: none;
             "
           >
-            <fa-icon :icon="['far', 'envelope']" class="me-2" />
+            <fa-icon :icon="['far', 'envelope']" class="mr-2" />
             hello@myshelta.com
           </a>
         </div>
@@ -29,7 +29,7 @@
                   color: white;
                 "
               >
-                <fa-icon :icon="['fab', 'whatsapp']" class="me-2" />
+                <fa-icon :icon="['fab', 'whatsapp']" class="mr-2" />
                 (+234) 0806 179 6909
               </a>
             </li>

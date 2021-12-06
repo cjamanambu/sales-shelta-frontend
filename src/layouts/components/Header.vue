@@ -22,8 +22,9 @@
           <b-button
             class="secondary-outline-btn"
             style="margin-right: 1.5em; margin-left: 1.5em"
-            >Sign up</b-button
           >
+            Sign up
+          </b-button>
           <b-button class="primary-btn">Sign in</b-button>
         </b-navbar-nav>
       </b-collapse>

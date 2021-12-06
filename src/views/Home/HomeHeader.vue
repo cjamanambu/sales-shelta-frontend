@@ -1,5 +1,5 @@
 <template>
-  <div class="d-lg-block d-none">
+  <div class="">
     <b-carousel controls fade :interval="10000">
       <b-carousel-slide :img-src="require('@/assets/images/home-header-1.svg')">
         <HomeSearch />

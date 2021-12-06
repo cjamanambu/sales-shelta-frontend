@@ -66,3 +66,11 @@
 .form-control::-ms-input-placeholder { /* Microsoft Edge */
   color: #c4c4c4;
 }
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../icons/navbar-toggler.svg");
+}
+.navbar-light .navbar-toggler {
+  /*color: #0033ea !important;*/
+  border: none;
+}

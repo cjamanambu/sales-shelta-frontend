@@ -16,7 +16,7 @@
       </b-button>
     </div>
     <p id="home-search-advanced">
-      Advanced Search <fa-icon :icon="['fas', 'chevron-down']" class="ms-3" />
+      Advanced Search <fa-icon :icon="['fas', 'chevron-down']" class="ml-3" />
     </p>
   </div>
 </template>
