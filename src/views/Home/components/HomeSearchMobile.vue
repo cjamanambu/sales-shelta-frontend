@@ -6,11 +6,7 @@
       property details.
     </p>
     <div id="home-search-wrapper-mobile">
-      <b-form-input
-        id="home-search-input-mobile"
-        placeholder="Location..."
-        size="lg"
-      />
+      <b-form-input id="home-search-input-mobile" size="lg" type="text" />
       <b-button class="secondary-btn home-search-btn-mobile">
         <fa-icon :icon="['fas', 'search']" style="font-size: 2em" />
       </b-button>
@@ -27,7 +23,7 @@ export default {};
 
 <style>
 #home-search-mobile {
-  padding-top: 2em;
+  padding-top: 4em;
   //margin-bottom: 5%;
   text-align: center;
 }
@@ -41,25 +37,25 @@ export default {};
   letter-spacing: -0.05em;
 }
 #home-search-wrapper-mobile {
-  margin-top: 1.3em;
+  margin-top: 2em;
   position: relative;
-  display: inline-block;
+  //display: inline-block;
 }
 #home-search-input-mobile {
-  //position: relative;
   margin: 0 auto;
   width: 100%;
   height: 4em;
   border-radius: 3.75em;
   padding-left: 1.5em;
-  color: #c4c4c4;
+  padding-top: 1em;
+  //color: #000000;
 }
 .home-search-btn-mobile {
   position: absolute;
-  padding: 1em 2em 1em 2em;
-  border-radius: 3.7em;
-  top: 6%;
-  left: 65%;
+  padding: 0.8em 2em 0.8em 2em;
+  border-radius: 3em;
+  top: 8%;
+  left: 72%;
 }
 #home-search-advanced-mobile {
   font-size: 1.125em;
