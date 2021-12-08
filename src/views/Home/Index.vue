@@ -5,6 +5,7 @@
       <NewListings />
       <AffordableHouses />
       <RentPayer />
+      <BlogList />
     </b-container>
   </div>
 </template>
@@ -14,12 +15,15 @@ import HomeHeader from "@/views/Home/HomeHeader";
 import NewListings from "@/views/Home/NewListings";
 import AffordableHouses from "@/views/Home/AffordableHouses";
 import RentPayer from "@/views/Home/RentPayer";
+import BlogList from "@/views/Home/BlogList";
+
 export default {
   components: {
     HomeHeader,
     NewListings,
     AffordableHouses,
     RentPayer,
+    BlogList,
   },
 };
 </script>

@@ -18,8 +18,8 @@
         "
       >
         &#8358;
-        {{ oldPrice
-        }}<span style="font-family: 'Gotham Book', sans-serif">m</span>
+        {{ oldPrice }}
+        <span style="font-family: 'Gotham Book', sans-serif">m</span>
       </p>
       <p
         style="
