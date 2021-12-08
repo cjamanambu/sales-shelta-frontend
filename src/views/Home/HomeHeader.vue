@@ -13,7 +13,6 @@
           <HomeSearch />
         </b-carousel-slide>
       </b-carousel>
-      continue here
     </div>
     <div class="d-lg-none">
       <b-container>

@@ -47,8 +47,7 @@ export default {};
   height: 4em;
   border-radius: 3.75em;
   padding-left: 1.5em;
-  padding-top: 1em;
-  //color: #000000;
+  color: #000000;
 }
 .home-search-btn-mobile {
   position: absolute;
