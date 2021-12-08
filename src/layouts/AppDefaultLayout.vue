@@ -6,7 +6,7 @@
     <transition name="fade" mode="out-in">
       <slot />
     </transition>
-    <!--    <Footer />-->
+    <TopFooter />
   </div>
 </template>
 
@@ -14,6 +14,7 @@
 import TopBar from "@/layouts/components/TopBar";
 import Header from "@/layouts/components/Header";
 import TopBarMobile from "@/layouts/components/TopBarMobile";
+import TopFooter from "@/layouts/components/TopFooter";
 
 export default {
   name: "AppDefaultLayout",
@@ -21,6 +22,7 @@ export default {
     TopBar,
     Header,
     TopBarMobile,
+    TopFooter,
   },
 };
 </script>

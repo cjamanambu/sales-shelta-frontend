@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mb-5">
     <HomeHeader />
     <b-container fluid>
       <NewListings />
