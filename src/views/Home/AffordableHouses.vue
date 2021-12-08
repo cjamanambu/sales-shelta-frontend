@@ -1,5 +1,5 @@
 <template>
-  <div id="new-listings" class="mt-5 mb-5" style="padding-bottom: 5em">
+  <div id="new-listings" class="mt-5 mb-lg-4 mb-3" style="padding-bottom: 5em">
     <p
       style="font-size: 2.25em; letter-spacing: -0.05em"
       class="text-lg-left text-center mb-4"
