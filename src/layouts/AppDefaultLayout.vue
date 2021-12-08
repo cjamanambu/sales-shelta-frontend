@@ -7,6 +7,7 @@
       <slot />
     </transition>
     <TopFooter />
+    <Footer />
   </div>
 </template>
 
@@ -15,6 +16,7 @@ import TopBar from "@/layouts/components/TopBar";
 import Header from "@/layouts/components/Header";
 import TopBarMobile from "@/layouts/components/TopBarMobile";
 import TopFooter from "@/layouts/components/TopFooter";
+import Footer from "@/layouts/components/Footer";
 
 export default {
   name: "AppDefaultLayout",
@@ -23,6 +25,7 @@ export default {
     Header,
     TopBarMobile,
     TopFooter,
+    Footer,
   },
 };
 </script>
