@@ -10,7 +10,10 @@
   letter-spacing: -0.05em;
 }
 
-.primary-btn:hover, .primary-btn:active, .primary-btn:focus, .primary-btn:focus-visible {
+.primary-btn:hover,
+.primary-btn:active,
+.primary-btn:focus,
+.primary-btn:focus-visible {
   background-color: #0026af;
   border-color: #0026af;
   box-shadow: none;
@@ -27,7 +30,10 @@
   letter-spacing: -0.05em;
 }
 
-.secondary-outline-btn:hover, .secondary-outline-btn:active, .secondary-outline-btn:focus, .secondary-outline-btn:focus-visible {
+.secondary-outline-btn:hover,
+.secondary-outline-btn:active,
+.secondary-outline-btn:focus,
+.secondary-outline-btn:focus-visible {
   background-color: #ffb100;
   border-color: #ffb100;
   color: #ffffff;
@@ -44,7 +50,10 @@
   letter-spacing: -0.05em;
 }
 
-.secondary-btn:hover, .secondary-btn:active, .secondary-btn:focus, .secondary-btn:focus-visible {
+.secondary-btn:hover,
+.secondary-btn:active,
+.secondary-btn:focus,
+.secondary-btn:focus-visible {
   background-color: #c48800;
   border-color: #c48800;
   color: #ffffff;
@@ -54,16 +63,19 @@
 
 /*overrides*/
 /*input*/
-.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+.form-control::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #c4c4c4;
   opacity: 1; /* Firefox */
 }
 
-.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+.form-control:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
   color: #c4c4c4;
 }
 
-.form-control::-ms-input-placeholder { /* Microsoft Edge */
+.form-control::-ms-input-placeholder {
+  /* Microsoft Edge */
   color: #c4c4c4;
 }
 
@@ -79,4 +91,7 @@
 .navbar-light .navbar-toggler {
   /*color: #0033ea !important;*/
   border: none;
+}
+.navbar-nav {
+  align-items: center;
 }

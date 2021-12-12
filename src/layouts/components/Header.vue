@@ -19,13 +19,10 @@
           <b-nav-item class="header-item" href="#"> Home financing</b-nav-item>
           <b-nav-item class="header-item" href="#"> FAQ</b-nav-item>
           <b-nav-item class="header-item" href="#"> Careers</b-nav-item>
-          <b-button
-            class="secondary-outline-btn"
-            style="margin-right: 1.5em; margin-left: 1.5em"
-          >
-            Sign up
-          </b-button>
-          <b-button class="primary-btn">Sign in</b-button>
+          <div class="mt-lg-0 mt-4 mb-lg-0 mb-3 d-flex justify-content-between">
+            <b-button class="secondary-outline-btn mr-3"> Sign up </b-button>
+            <b-button class="primary-btn">Sign in</b-button>
+          </div>
         </b-navbar-nav>
       </b-collapse>
     </b-container>
