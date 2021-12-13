@@ -128,8 +128,30 @@
         <b-button
           class="mt-4 mb-4 secondary-btn w-100"
           style="height: 2.8125em; border-radius: 60px"
+          @click="
+            $refs['private-visit'].hide();
+            $refs['message-success'].show();
+          "
         >
           Submit
+        </b-button>
+      </div>
+    </b-modal>
+    <b-modal ref="message-success" hide-footer>
+      <div
+        class="private-visit-form px-lg-4 px-2 text-center"
+        style="font-family: 'Gotham Book', sans-serif"
+      >
+        <p style="font-size: 1.5em; letter-spacing: -0.05em">Message Sent!</p>
+        <p style="font-size: 1.125em; letter-spacing: -0.05em">
+          An email will be sent to the email address you provided earlier,
+          containing details of your visit.
+        </p>
+        <b-button
+          class="mt-4 mb-4 secondary-btn w-100"
+          style="height: 2.8125em; border-radius: 60px"
+        >
+          Back to Home
         </b-button>
       </div>
     </b-modal>
