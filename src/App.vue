@@ -148,10 +148,8 @@ export default {
 }
 </style>
 
-<style lang="scss">
+<style>
 #app {
   font-family: "Gotham Book", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 </style>

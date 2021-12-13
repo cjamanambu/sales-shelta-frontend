@@ -1,6 +1,6 @@
 <template>
   <b-card
-    class="p-4"
+    class="p-lg-4 p-3"
     :class="[seeMore ? 'inquiry-form-longer' : 'inquiry-form']"
     no-body
   >

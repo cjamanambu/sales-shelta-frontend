@@ -3,12 +3,6 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 
-import BootstrapVue from "bootstrap-vue";
-import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap-vue/dist/bootstrap-vue.css";
-
-Vue.use(BootstrapVue);
-
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
@@ -21,6 +15,12 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 library.add(faWhatsapp, faEnvelope, faSearch, faChevronDown, faChevronLeft);
 
 Vue.component("fa-icon", FontAwesomeIcon);
+
+import BootstrapVue from "bootstrap-vue";
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap-vue/dist/bootstrap-vue.css";
+
+Vue.use(BootstrapVue);
 
 import("@/assets/css/main.css");
 

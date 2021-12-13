@@ -10,6 +10,7 @@
         id="home-search-input-mobile"
         size="lg"
         v-model="searchTerm"
+        placeholder="Location..."
       />
       <b-button type="submit" class="secondary-btn home-search-btn-mobile">
         <fa-icon :icon="['fas', 'search']" style="font-size: 2em" />

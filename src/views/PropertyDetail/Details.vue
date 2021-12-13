@@ -68,7 +68,11 @@
           <DetailFeatures />
           <DetailFeatures />
         </div>
-        <b-button class="primary-btn px-5 mb-5" style="border-radius: 40px">
+        <b-button
+          class="primary-btn px-5 mb-5"
+          style="border-radius: 40px"
+          @click="$refs['private-visit'].show()"
+        >
           Request a private showing
         </b-button>
       </div>
@@ -93,6 +97,42 @@
         <b-img fluid :src="require('@/assets/images/brains-hammer.svg')" />
       </div>
     </div>
+    <b-modal ref="private-visit" hide-footer>
+      <div
+        class="private-visit-form px-lg-4 px-2 text-center"
+        style="font-family: 'Gotham Book', sans-serif"
+      >
+        <p style="font-size: 1.5em; letter-spacing: -0.05em">
+          Book a private visit
+        </p>
+        <b-form-input
+          id="input-live"
+          placeholder="Fullname"
+          class="pv-input pt-2"
+        />
+        <b-form-input
+          id="input-live"
+          placeholder="Email"
+          class="pv-input pt-2 mt-3"
+        />
+        <b-form-input
+          id="input-live"
+          placeholder="Phone"
+          class="pv-input pt-2 mt-3"
+        />
+        <b-form-input
+          id="input-live"
+          placeholder="Date"
+          class="pv-input pt-2 mt-3"
+        />
+        <b-button
+          class="mt-4 mb-4 secondary-btn w-100"
+          style="height: 2.8125em; border-radius: 60px"
+        >
+          Submit
+        </b-button>
+      </div>
+    </b-modal>
   </div>
 </template>
 
@@ -139,5 +179,9 @@ export default {
   background: rgba(0, 0, 0, 0.5);
   display: inline-block;
   padding: 1em;
+}
+.pv-input {
+  border-radius: 50px;
+  height: 3.75em;
 }
 </style>
