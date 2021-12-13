@@ -12,9 +12,13 @@ Vue.use(BootstrapVue);
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import { faSearch, faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import {
+  faSearch,
+  faChevronDown,
+  faChevronLeft,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
-library.add(faWhatsapp, faEnvelope, faSearch, faChevronDown);
+library.add(faWhatsapp, faEnvelope, faSearch, faChevronDown, faChevronLeft);
 
 Vue.component("fa-icon", FontAwesomeIcon);
 

@@ -5,16 +5,17 @@
       Find homes for sale near you. View photos, open house information and
       property details.
     </p>
-    <div id="home-search-wrapper">
+    <form @submit.prevent="search" id="home-search-wrapper">
       <b-form-input
         id="home-search-input"
         placeholder="Location, property type..."
         size="lg"
+        v-model="searchTerm"
       />
-      <b-button class="secondary-btn home-search-btn">
+      <b-button class="secondary-btn home-search-btn" type="submit">
         <fa-icon :icon="['fas', 'search']" style="font-size: 2em" />
       </b-button>
-    </div>
+    </form>
     <p id="home-search-advanced" @click="$refs['advanced-search'].show()">
       Advanced Search <fa-icon :icon="['fas', 'chevron-down']" class="ml-3" />
     </p>
@@ -78,6 +79,7 @@
 export default {
   data() {
     return {
+      searchTerm: "",
       selected: "distress",
       options: [
         { text: "Distress sale", value: "distress" },
@@ -85,6 +87,14 @@ export default {
         { text: "Outright purchase", value: "outright" },
       ],
     };
+  },
+  methods: {
+    search() {
+      this.$router.push({
+        name: "Search",
+        query: { search_param: this.searchTerm },
+      });
+    },
   },
 };
 </script>
