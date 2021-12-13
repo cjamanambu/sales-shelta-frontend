@@ -5,6 +5,12 @@
     img-alt="Card image"
     img-top
     class="d-inline-block w-100"
+    @click="
+      $router.push({
+        name: 'PropertyDetails',
+        params: { property: 'propertyID' },
+      })
+    "
   >
     <b-card-text>
       <p style="font-size: 1.25em; letter-spacing: -0.05em">{{ name }}</p>
