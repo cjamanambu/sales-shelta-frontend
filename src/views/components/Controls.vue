@@ -1,5 +1,5 @@
 <template>
-  <div id="controls" class="mt-5 d-flex align-items-end">
+  <div id="controls" class="mt-5 mb-5 d-flex align-items-end">
     <p
       class="control-back d-lg-block d-none mr-lg-4 mr-1"
       @click="$router.push({ name: 'Home' })"
